@@ -1,0 +1,122 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+    background-image: url("camuflado.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    color: white;
+}
+
+header{
+    width:100%;
+    padding:25px;
+}
+
+.cabecalho{
+    max-width:1200px;
+    margin:auto;
+}
+
+.navegacao{
+    display:flex;
+    justify-content:center;
+    gap:80px;
+
+    background: rgba(0,0,0,0.55);
+    border:1px solid rgba(255,255,255,0.2);
+    border-radius:15px;
+    padding:25px;
+}
+
+.navegacao a{
+    color:#fff;
+    text-decoration:none;
+    font-family:'Anton', sans-serif;
+    font-size:28px;
+    letter-spacing:2px;
+    transition:0.3s;
+}
+
+.navegacao a:hover{
+    color:#d9d17a;
+    transform:scale(1.05);
+}
+
+section{
+    max-width:900px;
+    margin:40px auto;
+    padding:50px;
+    background: rgba(0,0,0,0.55);
+    border:1px solid rgba(255,255,255,0.15);
+    border-radius:20px;
+}
+
+.title{
+    text-align:center;
+    font-family:'Anton', sans-serif;
+    font-size:90px;
+    letter-spacing:4px;
+    margin-bottom:25px;
+}
+
+.sub-title{
+    font-family:'Anton', sans-serif;
+    font-size:45px;
+    text-align:center;
+    color:#b9b74e;
+    margin-top:30px;
+    margin-bottom:20px;
+}
+
+.title::after,
+.sub-title::after{
+    content:"";
+    display:block;
+    width:180px;
+    height:4px;
+    background:#b9b74e;
+    margin:12px auto;
+}
+
+p{
+    font-size:32px;
+    line-height:1.8;
+    text-align:center;
+}
+
+ul{
+    list-style:none;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:15px;
+    margin-top:25px;
+}
+
+ul li{
+    font-size:30px;
+    text-align:center;
+}
+
+.projeto1{
+    width:400px;
+    height:300px;
+    margin:auto;
+    border-radius:20px;
+    background: rgba(0,0,0,0.55);
+    border:2px solid #b9b74e;
+    transition:0.3s;
+}
+
+.projeto1:hover{
+    transform:scale(1.05);
+}
